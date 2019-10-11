@@ -4,7 +4,7 @@
 #
 Name     : ngx_http_auth_pam_module
 Version  : 1.5.1
-Release  : 1
+Release  : 3
 URL      : https://github.com/sto/ngx_http_auth_pam_module/archive/v1.5.1.tar.gz
 Source0  : https://github.com/sto/ngx_http_auth_pam_module/archive/v1.5.1.tar.gz
 Summary  : No detailed summary available
@@ -12,10 +12,8 @@ Group    : Development/Tools
 License  : BSD-2-Clause
 Requires: ngx_http_auth_pam_module-lib = %{version}-%{release}
 BuildRequires : Linux-PAM-dev
-BuildRequires : nginx-mainline-dev
-BuildRequires : nginx-mainline-extras-modulebuild
-BuildRequires : pcre-dev
-BuildRequires : zlib-dev
+BuildRequires : buildreq-nginx
+BuildRequires : openssl-dev
 
 %description
 # ngx_http_auth_pam_module
