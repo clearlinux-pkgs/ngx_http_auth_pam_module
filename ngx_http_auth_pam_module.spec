@@ -4,7 +4,7 @@
 #
 Name     : ngx_http_auth_pam_module
 Version  : 1.5.2
-Release  : 17
+Release  : 18
 URL      : https://github.com/sto/ngx_http_auth_pam_module/archive/v1.5.2/ngx_http_auth_pam_module-1.5.2.tar.gz
 Source0  : https://github.com/sto/ngx_http_auth_pam_module/archive/v1.5.2/ngx_http_auth_pam_module-1.5.2.tar.gz
 Summary  : No detailed summary available
